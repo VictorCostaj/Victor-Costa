@@ -60,7 +60,7 @@ ScrollReveal().reveal(".home-content p, .about-content", { origin: "right" });
 const typed = new Typed('.multiple-text',{
   strings: ['Desenvolvedor Front-End', 'Desenvolvedor Front-End'],
   typedSpeed: 100,
-  backSpeed: 150,
-  backDeplay: 2000,
+  backSpeed: 100,
+  backDeplay: 1000,
   loop: true
 });
