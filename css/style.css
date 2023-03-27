@@ -76,13 +76,10 @@ section {
   align-items: center;
 }
 
-.home-img{
-  width: 60vw;
-}
 
 .home-img img {
-  /* width: 30vw; */
-  padding-left: 25rem;
+  width: 35vw;
+  /* padding-left: 25rem; */
   animation: floatImage 4s ease-in-out infinite;
 }
 
