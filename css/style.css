@@ -168,7 +168,8 @@ span {
 }
 
 .about-img img {
-  width: 17vw;
+  width: 25vw;
+  border: solid 10px var(--main-color);
   border-radius: 50%;
 }
 
