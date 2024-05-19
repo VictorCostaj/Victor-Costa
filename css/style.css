@@ -167,7 +167,7 @@ span {
 }
 
 .about-img img {
-  width: 20vw;
+  width: 35vw;
   border: solid 10px var(--main-color);
   border-radius: 50%;
 }
@@ -176,7 +176,14 @@ span {
   text-align: center;
   font-size: 4.5rem;
 }
+
+.about-content {
+  margin-top: 5rem;
+}
+
 .about-content h2 {
+  margin-top: 45rem;
+  margin-top: 2rem;
   text-align: left;
   line-height: 1.2;
 }
@@ -188,7 +195,7 @@ span {
 .about-content p {
   font-size: 1.6rem;
   margin: 2rem 0 3rem;
-  text-align: justify;
+  /* text-align: justify; */
 }
 
 /* tecnologias */
@@ -459,13 +466,24 @@ span {
   .about {
     flex-direction: column-reverse;
   }
+
+  .about-content,
+  .about-content h2 {
+    text-align: center;
+  }
+
+  .about-content p {
+    font-size: 23px;
+  }
+
   .about-img {
-    width: 90vw;
+    width: 45vw;
     margin-top: 4rem;
   }
-  .about-img img{
-    width: 50vw;
-    margin-left: 17rem;
+  .about-img img {
+    width: 40vw;
+    /* margin-left: 2rem; */
+    margin-top: -5rem;
   }
 
   .services h2 {
@@ -489,7 +507,7 @@ span {
 
 @media (max-width: 425px) {
   .about-img img {
-    width: 63vw;
+    width: 30vw;
   }
 }
 
@@ -502,14 +520,13 @@ span {
   }
 }
 
-
 @media (max-width: 365px) {
   .home-img img {
     width: 90vw;
   }
 
   .about-img img {
-    width: 60vw;
+    width: 30vw;
   }
   .footer {
     flex-direction: column-reverse;

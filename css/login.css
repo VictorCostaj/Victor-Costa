@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-color: #1f242d;
+  --second-bg-color: #323946;
+  --text-color: #fff;
+  --main-color: #7e57c2;
+}
+
+body {
+  font-family: "Noto Sans", Courier, monospace;
+  font-size: 18px;
+  background-size: cover;
+  background-position: top;
+  background-color: var(--bg-color);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+/*imagem
+.divEsquerda {
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 85%;
+  flex: 0.5;
+  margin: 15px;
+  border-radius: 30px;
+}*/
+
+/* img {
+  width: 90vh;
+} */
+
+.divDireita {
+  /*formulario*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 0.5;
+  height: 60%;
+}
+
+#fieldset {
+  width: 70%;
+  padding: 100px;
+  border-radius: 30px;
+  text-align: center;
+  border: none;
+}
+
+.card {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 35px;
+  background: var(--second-bg-color);
+  border-radius: 20px;
+  box-shadow: 0px 10px 40px #00000056;
+}
+
+legend {
+  font-size: 25px;
+  margin-bottom: 40px;
+  color: var(--main-color);
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+#formCadastro {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.inputs {
+  display: flex;
+  border-radius: 5px;
+  width: 100%;
+  height: 30px;
+  padding: 18px;
+  border: none;
+}
+
+#entrar:focus,
+#criarConta:focus,
+#salvarUsuario:focus {
+  outline: none;
+}
+
+label {
+  display: flex;
+  flex: column;
+  font-size: 20px;
+  padding: 10px;
+  color: var(--main-color);
+}
+
+#sairSistema {
+  border-radius: 5px;
+  height: 50px;
+  width: 5%;
+  background-color: #f4c21b;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  margin-left: 0;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+#entrar,
+#criarConta,
+#salvarUsuario {
+  border-radius: 50px;
+  margin: 8px;
+  height: 35px;
+  width: 100%;
+  color: #252121;
+  border: none;
+  background-color: var(--main-color);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.login-return-home i {
+  font-size: 2rem;
+  margin-top: 10px;
+}
